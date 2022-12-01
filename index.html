@@ -2,79 +2,94 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Landing Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Landing Page</title>
 </head>
 
 <body>
-    <h1>The Landing Page</h1>
+  <h1>The Landing Page</h1>
 
-    <main>
-        <!-- TODO: Use this div for background image -->
-        <div>
-            <section>
-                <h2>Call to Action</h2>
-                <p>sign up for out newsletter</p>
-                <form>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Enter your email">
-                    <button type="submit">Sign Up</button>
-                </form>
-            </section>
-            <section>
-                <h2>Our Mission</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-                  voluptates, quod, quia, voluptate quae voluptatem quidem voluptas
-                  doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
-                  Quisquam, quae. Quisquam, quae.
-                </p>
-                <a href="http://classic.mit.edu">Find out more</a>
-              </section>
-        
-              <section>
-                <h2>Our Team</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-                  voluptates, quod, quia, voluptate quae voluptatem quidem voluptas
-                  doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
-                  Quisquam, quae. Quisquam, quae.
-                </p>
-                <a href="http://classic.mit.edu">Meet us</a>
-              </section>
-        
-              <section>
-                <h2>Our Services</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-                  voluptates, quod, quia, voluptate quae voluptatem quidem voluptas
-                  doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
-                  Quisquam, quae. Quisquam, quae.
-                </p>
-                <a href="http://classic.mit.edu">What we provide</a>
-              </section>
-              <section>
-              <h2>Contact us</h2>
-              <form>
-                <label for="name">Name</label>
-                <input type="text" id=name placeholder="Name">
-                <label for="email">Email</label>
-                <input type="email" id="contact-email" placeholder="Enter your email">
-                <label for="phone">Phone</label>
-                <input type="tel" id="phone" placeholder="Enter your phone number">
-                <label for="message">Comment</label>
-                <textarea type="text" id="comment" rows="5" col="30" placeholder="Something to say?"></textarea>
-                <button type="submit">Send</button>
-              </form>
-            </section>
-        </div>
-    </main>
-    <footer>
-        <small>
-            &copy;2022 - The Landing Page
-        </small>
-    </footer>
+  <main>
+    <!-- TODO: Use this div for background image -->
+    <div>
+      <section>
+        <h2>Call to Action</h2>
+        <p>sign up for out newsletter</p>
+        <form>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email">
+          <button type="submit">Sign Up</button>
+        </form>
+      </section>
+      <section>
+        <h2>Our Mission</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          voluptates, quod, quia, voluptate quae voluptatem quidem voluptas
+          doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
+          Quisquam, quae. Quisquam, quae.
+        </p>
+        <a href="http://classic.mit.edu">Find out more</a>
+      </section>
+
+      <section>
+        <h2>Our Team</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          voluptates, quod, quia, voluptate quae voluptatem quidem voluptas
+          doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
+          Quisquam, quae. Quisquam, quae.
+        </p>
+        <a href="http://classic.mit.edu">Meet us</a>
+      </section>
+
+      <section>
+        <h2>Our Services</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          voluptates, quod, quia, voluptate quae voluptatem quidem voluptas
+          doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
+          Quisquam, quae. Quisquam, quae.
+        </p>
+        <a href="http://classic.mit.edu">What we provide</a>
+      </section>
+      <section>
+        <h2>Contact us</h2>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id=name placeholder="Name">
+          <label for="email">Email</label>
+          <input type="email" id="contact-email" placeholder="Enter your email">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" placeholder="Enter your phone number">
+          <label for="message">Comment</label>
+          <textarea type="text" id="comment" rows="5" col="30" placeholder="Something to say?"></textarea>
+
+          <label for="hear-select">How did you hear about us?</label>
+
+          <select name="pets" id="hear-select">
+            <option value="">--Please choose an option--</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="parrot">Parrot</option>
+            <option value="spider">Spider</option>
+            <option value="goldfish">Goldfish</option>
+          </select>
+          <label for="interest">What's your level of interest in buying stuff?</label>
+          <input type="range" id="interest" name="interest" min="0" max="10" />
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <small>
+      &copy;2022 - The Landing Page
+    </small>
+  </footer>
 </body>
 
 </html>
