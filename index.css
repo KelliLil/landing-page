@@ -1,3 +1,26 @@
+:root {
+    --primary-color: #845ec2
+}
+
 html {
     font-family: 'Roboto', sans-serif;
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
 }
