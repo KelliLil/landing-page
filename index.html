@@ -35,7 +35,7 @@
         </form>
       </section>
     </div>
-    <section>
+    <section class="bg-secondary text-center">
       <h2>Our Mission</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
@@ -43,10 +43,10 @@
         doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
         Quisquam, quae. Quisquam, quae.
       </p>
-      <a href="http://classic.mit.edu">Find out more</a>
+      <a href="http://classic.mit.edu" class="button bg-tertiary inline-block text-no-underline text-dark">Find out more</a>
     </section>
 
-    <section>
+    <section class="bg-primary text-center">
       <h2>Our Team</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
@@ -54,10 +54,10 @@
         doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
         Quisquam, quae. Quisquam, quae.
       </p>
-      <a href="http://classic.mit.edu">Meet us</a>
+      <a href="http://classic.mit.edu" class="button bg-tertiary inline-block text-no-underline text-dark">Meet us</a>
     </section>
 
-    <section>
+    <section class="bg-secondary text-center">
       <h2>Our Services</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
@@ -65,21 +65,21 @@
         doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
         Quisquam, quae. Quisquam, quae.
       </p>
-      <a href="http://classic.mit.edu">What we provide</a>
+      <a href="http://classic.mit.edu" class="button bg-tertiary inline-block text-no-underline text-dark">What we provide</a>
     </section>
-    <section>
-      <h2>Contact us</h2>
-      <form>
-        <label for="name">Name</label>
-        <input type="text" id=name placeholder="Name">
-        <label for="email">Email</label>
-        <input type="email" id="contact-email" placeholder="Enter your email">
-        <label for="phone">Phone</label>
-        <input type="tel" id="phone" placeholder="Enter your phone number">
-        <label for="message">Comment</label>
-        <textarea type="text" id="comment" rows="5" col="30" placeholder="Something to say?"></textarea>
+    <section class="bg-primary text-center">
+      <h2 class="m-0">Contact us</h2>
+      <form class="bg-primary flex flex-column gap">
+        <label for="name" class="sr-only">Name</label>
+        <input type="text" id=name placeholder="Name" class="rounded">
+        <label for="email" class="sr-only">Email</label>
+        <input type="email" id="contact-email" placeholder="Enter your email" class="rounded">
+        <label for="phone" class="sr-only">Phone</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number" class="rounded">
+        <label for="message" class="sr-only">Comment</label>
+        <textarea type="text" id="comment" rows="5" col="30" placeholder="Something to say?" class="rounded"></textarea>
 
-        <label for="hear-select">How did you hear about us?</label>
+        <label for="hear-select" class="sr-only">How did you hear about us?</label>
 
         <select name="pets" id="hear-select">
           <option value="">--Please choose an option--</option>
@@ -93,7 +93,7 @@
         <label for="interest">What's your level of interest in buying stuff?</label>
         <input type="range" id="interest" name="interest" min="0" max="10" />
 
-        <button type="submit">Send</button>
+        <button type="submit" class="button bg-tertiary inline-block text-no-underline text-dark">Send</button>
       </form>
     </section>
 

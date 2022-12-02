@@ -13,7 +13,7 @@ p {
  margin: 0.5rem;
 }
 
-.bg-primary, .bg-secondary, .bg-tertiary {
+.bg-primary, .bg-secondary, .bg-tertiary, .bg-translucent-dark {
     color: white;
     padding: 1rem;
 }
@@ -32,8 +32,6 @@ p {
 
 .bg-translucent-dark {
     background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 1rem;
 }
 
 .button {
@@ -47,6 +45,7 @@ p {
 .button--submit {
     background-color: var(--accent-color);
 }
+
 
 .flex {
     display: flex;
@@ -68,12 +67,36 @@ p {
     justify-content: center;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
+input {
+    padding: 4px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.p-1 {
+    padding: 0.5rem;
+}
+
 .rounded {
     border-radius: 0.5rem;
 }
 
 .text-center {
     text-align: center;
+}
+
+.text-no-underline {
+    text-decoration: none;
+}
+
+.text.dark {
+    color: #333;
 }
 
 .sr-only {
